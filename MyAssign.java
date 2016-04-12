@@ -1,0 +1,26 @@
+public class MyAssign 
+{
+	public static void main (String [] args) 
+	{
+	int a = 5;
+	int b, c, d;
+
+	System.out.println ("a = " + a);	
+
+	a = 4;
+	System.out.println ("a = " + a);	
+
+	a += 3; // a = a +3
+	System.out.println ("a = " + a);	
+
+	a = 0;
+	System.out.println ("a = " + a);	
+
+	//b = c= d = 100;
+	b = c= d = a;
+
+	System.out.println ("b = " + b);	
+	System.out.println ("c = " + c);	
+	System.out.println ("d = " + d);	
+	}
+}
