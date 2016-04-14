@@ -1,25 +1,24 @@
-// JavaScript Document
 public class MyClass {
 
-int myClass_propers;
+int myClass_properties;
+void setMyClass_properties (int number) {
 
- void SetMyClass_propers (int number)
-	{
-	   myClass_propers = number;
-	}
- int GetMyClass_propers () 
-	{
-    	return myClass_propers;
-	}
+myClass_properties = number;
 
-public static void main (String [] args) 
-{
-	MyClass myClass;
-	myClass = new MyClass();
-
-    myClass.SetMyClass_propers (5);
-    System.out.println ("Result = " + myClass.GetMyClass_propers());    
 }
 
+int getMyClass_properies () {
+return myClass_properties;
+
+}
+
+public static void main (String [] args) {
+
+MyClass myClass;
+myClass = new MyClass ();
+myClass.setMyClass_properties(5);
+System.out.println ("Result " + myClass.getMyClass_properies());
+
+}
 
 }
